@@ -12,7 +12,6 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <!-- Change this path to your game's BepInEx plugins folder -->
     <GamePluginsDir>C:\Program Files (x86)\Steam\steamapps\common\Kingspray Graffiti\BepInEx\plugins\</GamePluginsDir>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,7 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <!-- References needed for your mod -->
     <Reference Include="0Harmony">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kingspray Graffiti\BepInEx\core\0Harmony.dll</HintPath>
       <Private>false</Private>
@@ -63,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <!-- Your source files -->
     <Compile Include="ApplyCustomCap.cs" />
     <Compile Include="UnityAssetResolver.cs" />
     <Compile Include="JsonParser.cs" />
@@ -71,13 +68,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <!-- JSON config copied to output folder -->
     <None Include="CustomCaps\examplecap.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <!-- Folders to copy -->
     <Folder Include="CustomTextures\" />
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
