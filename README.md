@@ -1,4 +1,5 @@
 # Mod for adding custom caps to Kingspray VR
-yeah
+Written in C# using the BepInEx loader.
 
-![Alt text](https://i.imgur.com/O0aPArG.gif)
+
+![Alt text](https://i.imgur.com/hZ0lhCv.png)
