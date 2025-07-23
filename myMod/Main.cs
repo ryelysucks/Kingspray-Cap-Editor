@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
 
-[BepInPlugin("com.skante.capmod", "Custom cap test", "1.0.0")]
+[BepInPlugin("com.skante.capmod", "da cap mod", "1.0.0")]
 public class CustomCapPlugin : BaseUnityPlugin
 {
     private void OnEnable()
