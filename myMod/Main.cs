@@ -16,6 +16,7 @@ public class CustomCapPlugin : BaseUnityPlugin
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    //should probably check we're not loading into a scene without paint... oh well!
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Logger.LogInfo($"Scene loaded: {scene.name}");
