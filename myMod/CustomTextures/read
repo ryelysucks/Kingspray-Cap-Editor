@@ -1,1 +1,2 @@
-
+Add custom textures to this folder.. must be a png, and reference it inside of your cap json!
+Type the file name inside of "NoiseSpriteName":
