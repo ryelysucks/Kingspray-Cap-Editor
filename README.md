@@ -6,6 +6,9 @@ Written in C# using the BepInEx loader.
 
 # Installation instructions:
 Install BepInEx into your Kingspray root directory.
+
 [BepInEx](https://github.com/BepInEx/BepInEx)
+
 Extract the archive from the latest release into the plugins folder.
+
 Launch the game!
