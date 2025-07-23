@@ -7,7 +7,7 @@ Written in C# using the BepInEx loader.
 # Installation instructions:
 Install [BepInEx](https://github.com/BepInEx/BepInEx) into your Kingspray root directory.
 
-Extract the archive from the latest release into the plugins folder.
+Extract the archive from the latest [release](https://github.com/ryelysucks/Kingspray-Cap-Editor/releases/tag/V1) into the plugins folder.
 
 ![Alt text](https://i.imgur.com/WaSUC4q.png)
 
