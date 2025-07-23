@@ -23,20 +23,6 @@ public class CustomCapPlugin : BaseUnityPlugin
         LoadAllJsonCaps();
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            Logger.LogInfo("Loading Rooftops scene...");
-            SceneManager.LoadScene("Rooftops");
-        }
-
-        if (Input.GetKeyDown(KeyCode.F3))
-        {
-            LoadAllJsonCaps();
-        }
-    }
-
     private void LoadAllJsonCaps()
     {
         string pluginFolder = Path.GetDirectoryName(typeof(CustomCapPlugin).Assembly.Location);
