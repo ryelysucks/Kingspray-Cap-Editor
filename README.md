@@ -5,11 +5,11 @@ Written in C# using the BepInEx loader.
 
 
 # Installation instructions:
-Install BepInEx into your Kingspray root directory.
-
-[BepInEx](https://github.com/BepInEx/BepInEx)
+Install [BepInEx](https://github.com/BepInEx/BepInEx) into your Kingspray root directory.
 
 Extract the archive from the latest release into the plugins folder.
+
+![Alt text](https://i.imgur.com/WaSUC4q.png)
 
 Launch the game!
 
