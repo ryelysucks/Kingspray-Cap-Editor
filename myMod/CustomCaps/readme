@@ -1,1 +1,13 @@
+"Name": //name of cap
+"Description": //description inside of UI
+"CapModelName": //modelname. some model names are: "KingSpray_SprayPinkDot","KingSpray_SprayCyclops","KingSpray_NYFatCap", etc.
 
+"DynamicBrushMaterialName": "PaintBrush-Dynamic", //Ingame material.. feel free to replace with any valid material.
+"NoiseTextureName": "chisel", //custom texture override goes inside of CustomTextures, otherwise names such as "SprayCanNoise" "SprayCanNoiseV2" up until V7 are in base game.
+"NoiseSpriteName": "SprayCanNoise", //Same here except no custom sprites at the moment.
+
+"ModelRotation": [ 0, 0, 90 ], //XYZ for rotation of cap on can. Can make it upside down and face you for the funny.
+"ModelScale": [ 1, 1, 1 ], // 1 is default, 2 is 2x, 0.5 is half, etc.
+"ColorOverride": [ 1.0, 0.5, 0.0, 1.0 ] // RGBA.
+
+Rest of values i'm currently not certain on their affects..
